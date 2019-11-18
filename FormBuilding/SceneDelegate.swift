@@ -1,11 +1,3 @@
-//
-//  SceneDelegate.swift
-//  FormBuilding
-//
-//  Created by Jagoth Jyoti Dey on 18.11.19.
-//  Copyright © 2019 Jagoth. All rights reserved.
-//
-
 import UIKit
 import SwiftUI
 
