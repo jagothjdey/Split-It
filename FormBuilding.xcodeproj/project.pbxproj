@@ -10,21 +10,23 @@
 		297F74D82382162800E51C97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297F74D72382162800E51C97 /* AppDelegate.swift */; };
 		297F74DA2382162800E51C97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297F74D92382162800E51C97 /* SceneDelegate.swift */; };
 		297F74DC2382162800E51C97 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297F74DB2382162800E51C97 /* ContentView.swift */; };
-		297F74DE2382162C00E51C97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 297F74DD2382162C00E51C97 /* Assets.xcassets */; };
 		297F74E12382162C00E51C97 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 297F74E02382162C00E51C97 /* Preview Assets.xcassets */; };
 		297F74E42382162C00E51C97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 297F74E22382162C00E51C97 /* LaunchScreen.storyboard */; };
+		29FCA5732382348F0006D7AA /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 29FCA5722382348E0006D7AA /* AppIcon.png */; };
+		29FCA575238235570006D7AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29FCA574238235570006D7AA /* Assets.xcassets */; };
 		FD444E22AB6DA7698BAEF55E /* Pods_FormBuilding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4208386583A36984A7FB899E /* Pods_FormBuilding.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		297F74D42382162800E51C97 /* FormBuilding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FormBuilding.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		297F74D42382162800E51C97 /* Split-It.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Split-It.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		297F74D72382162800E51C97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		297F74D92382162800E51C97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		297F74DB2382162800E51C97 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		297F74DD2382162C00E51C97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		297F74E02382162C00E51C97 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		297F74E32382162C00E51C97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		297F74E52382162C00E51C97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29FCA5722382348E0006D7AA /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon.png; sourceTree = SOURCE_ROOT; };
+		29FCA574238235570006D7AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		3E9A16597B67CBC1C248F8DB /* Pods-FormBuilding.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FormBuilding.release.xcconfig"; path = "Target Support Files/Pods-FormBuilding/Pods-FormBuilding.release.xcconfig"; sourceTree = "<group>"; };
 		4208386583A36984A7FB899E /* Pods_FormBuilding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FormBuilding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCBE518E4DD856894B64087A /* Pods-FormBuilding.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FormBuilding.debug.xcconfig"; path = "Target Support Files/Pods-FormBuilding/Pods-FormBuilding.debug.xcconfig"; sourceTree = "<group>"; };
@@ -63,7 +65,7 @@
 		297F74D52382162800E51C97 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				297F74D42382162800E51C97 /* FormBuilding.app */,
+				297F74D42382162800E51C97 /* Split-It.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -74,9 +76,10 @@
 				297F74D72382162800E51C97 /* AppDelegate.swift */,
 				297F74D92382162800E51C97 /* SceneDelegate.swift */,
 				297F74DB2382162800E51C97 /* ContentView.swift */,
-				297F74DD2382162C00E51C97 /* Assets.xcassets */,
 				297F74E22382162C00E51C97 /* LaunchScreen.storyboard */,
 				297F74E52382162C00E51C97 /* Info.plist */,
+				29FCA5722382348E0006D7AA /* AppIcon.png */,
+				29FCA574238235570006D7AA /* Assets.xcassets */,
 				297F74DF2382162C00E51C97 /* Preview Content */,
 			);
 			path = FormBuilding;
@@ -96,7 +99,6 @@
 				CCBE518E4DD856894B64087A /* Pods-FormBuilding.debug.xcconfig */,
 				3E9A16597B67CBC1C248F8DB /* Pods-FormBuilding.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -118,7 +120,7 @@
 			);
 			name = FormBuilding;
 			productName = FormBuilding;
-			productReference = 297F74D42382162800E51C97 /* FormBuilding.app */;
+			productReference = 297F74D42382162800E51C97 /* Split-It.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -159,9 +161,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29FCA5732382348F0006D7AA /* AppIcon.png in Resources */,
 				297F74E42382162C00E51C97 /* LaunchScreen.storyboard in Resources */,
+				29FCA575238235570006D7AA /* Assets.xcassets in Resources */,
 				297F74E12382162C00E51C97 /* Preview Assets.xcassets in Resources */,
-				297F74DE2382162C00E51C97 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,8 +348,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.FormBuilding.app.FormBuilding;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FormBuilding.app.splitit;
+				PRODUCT_NAME = "Split-It";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -366,8 +369,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.FormBuilding.app.FormBuilding;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FormBuilding.app.splitit;
+				PRODUCT_NAME = "Split-It";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
