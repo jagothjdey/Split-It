@@ -1,2 +1,2 @@
 # Split-It
-A normal Money Splitting  App using SwiftUI
+A normal Money Splitting  App using SwiftUI.
